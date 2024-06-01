@@ -1,5 +1,5 @@
 import axios from "axios";
-axios.defaults.baseURL = process.env.API_URL;
+axios.defaults.baseURL = 'http://localhost:1111';
 class AuthServices {
     login = async (username, password) => {
         try {
